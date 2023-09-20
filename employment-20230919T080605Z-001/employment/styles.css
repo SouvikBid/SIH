@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head{
+    height: 10vh;
+    background-color: rgba(0, 0, 0, .1);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    backdrop-filter: blur(50px);
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+header h2{
+   margin-left: 10px;
+}
+header h3{
+    padding-top: 10px;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/neon-light-money-bag-line-icon-cash-banking-currency-sign-dollar-usd-symbol-glowing-graphic-design-brick-wall-vector_549897-2804.jpg?w=826);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.card{
+background: wheat;
+width: 270px;
+background-size: cover;
+
+margin: 20px;
+border-radius: 15px;
+}
+.card-image{
+height: 200px;
+margin-bottom: 15px;
+background-size: cover;
+border-radius: 15px 15px 0px 0px;
+}
+.car-1{
+background-image: url(https://authy.com/wp-content/uploads/new-microsoft-logo-SIZED-SQUARE-300x297.jpg);
+}
+.car-2{
+    padding: 55px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.car-3{
+    background-image: url(https://logowik.com/content/uploads/images/amazon6707.jpg);
+    padding-top: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.car-4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px;
+}
+.car-5{
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 45px;
+}
+.car-6{
+    background-image: url(https://logos-world.net/wp-content/uploads/2021/09/Intel-Logo-700x394.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.car-7{
+    background-image: url(https://1000logos.net/wp-content/uploads/2021/05/Deloitte-logo-768x405.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    margin-left: 15px;
+}
+.car-8{
+    background-image: url(https://1000logos.net/wp-content/uploads/2021/05/Wipro-logo-768x432.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.card p{
+padding: 10px;
+}
+.card a{
+background-color: black;
+color: white;
+padding: 15px 20px;
+display: block;
+text-align: center;
+margin: 20px 50px;
+text-decoration: none;
+}
+.card:hover{
+background-color: rgb(62, 62, 62);
+color: white;
+cursor: pointer;
+transform: scale(1.03);
+transition: all 0.4s ease;
+}
+.foot{
+    background-color: rgba(0, 0, 0, .1);
+    color: white;
+    text-align: center;
+    font-size: medium;
+    font-family: 'Roboto Slab', serif;
+    backdrop-filter: blur(50px);
+    height: 7vh;
+    padding-top: 10px;
+}
