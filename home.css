@@ -7,3 +7,19 @@ footer {
     color: #DBEDF3;
     font-family: "Sacramento", cursive;
   }
+
+#card2 .card-body {
+  margin-top: 75px;
+}
+
+#card1 a {
+  margin-top: 35px;
+}
+
+#card2 a {
+  margin-top: 65px;
+}
+
+#card4 a {
+  margin-top: 20px;
+}
